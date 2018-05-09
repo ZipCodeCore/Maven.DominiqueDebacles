@@ -125,7 +125,7 @@ public class StringUtilitiesTest {
         Assert.assertEquals(actual, expected);
     }
 
-    /* String Utilities: Check Bad Morning
+    /* String Utilities: Check Bad
        Given a String, return true if the string contains "bad" and return false if the string does not contain "bad"
 
        The method should return true if the string "bad" is found, regardless of case.
@@ -181,4 +181,31 @@ public class StringUtilitiesTest {
         // Then
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void testStringUtilitiesRemoveMorning1() {
+        // Given
+        String s = "badixkf";
+        String expected = "ixkf";
+
+        // When
+        String actual = StringUtilities.remove(s, "bad");
+
+        // Then
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testStringUtilitiesReplaceMorning1() {
+        // Given
+        String s = "hello";
+        String expected = "ello";
+
+        // When
+        String actual = StringUtilities.remove(s, "h");
+
+        // Then
+        Assert.assertEquals(expected, actual);
+    }
+
 }

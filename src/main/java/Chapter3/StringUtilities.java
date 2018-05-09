@@ -4,14 +4,11 @@ public class StringUtilities {
     public static boolean checkForBad(String s) {
         s = s.toLowerCase();
 
-        if(s.contains("bad"))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return s.contains("bad");
+    }
+
+    public static String remove(String s, String x) {
+        return s.replace(x, "");
     }
 
     public static String getGreeting(String s) {
@@ -22,7 +19,5 @@ public class StringUtilities {
         return s.split(" ");
     }
 
-    public static String toString(String[] array) {
-        return String.join(" ", array);
-    }
+    public static String toString(String[] array) { return String.join(" ", array); }
 }
