@@ -9,7 +9,8 @@ public class DisplayNameBuilder {
         if (firstName == "" || lastName == "")
         {
             return "Supporter";
-        } else
+        }
+        else
         {
             return firstName + " " + lastName;
         }
