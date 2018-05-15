@@ -4,9 +4,10 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class StringUtilitiesTest {
-    /* String Utilities: Greeting
-       Given a String representing a first name, return "Hello" plus the first name, separated by a space.
-    */
+    /**
+     * String Utilities: Greeting
+     * Given a String representing a first name, return "Hello" plus the first name, separated by a space.
+     */
     @Test
     public void testStringUtilitiesGreetingMorning1() {
         // Given
@@ -46,11 +47,12 @@ public class StringUtilitiesTest {
         Assert.assertEquals(actual, expected);
     }
 
-    /* String Utilities: String to Array
-        Given an string of words, separates the words into an array of strings.
-        Ex: "One Two Three Four" -> ["One", "Two", "Three", "Four"]
-
-        **String will never begin or end with a space**
+    /**
+     * String Utilities: String to Array
+     * Given an string of words, separates the words into an array of strings.
+     * Ex: "One Two Three Four" -> ["One", "Two", "Three", "Four"]
+     * <p>
+     * String will never begin nor end with a space
      */
 
     @Test
@@ -79,12 +81,12 @@ public class StringUtilitiesTest {
         Assert.assertArrayEquals(actual, expected);
     }
 
-    /* String Utilities: Array to String
-        Given an string of words, separates the words into an array of strings.
-        Ex: "One Two Three Four" -> ["One", "Two", "Three", "Four"]
-
-        **String will never begin or end with a space**
-    */
+    /**
+     * String Utilities: Array to String
+     * Given an string of words, separates the words into an array of strings.
+     * Ex: "One Two Three Four" -> ["One", "Two", "Three", "Four"]
+     * String will never begin nor end with a space**
+     */
 
     @Test
     public void testStringUtilitiesToStringMorning1() {
@@ -125,11 +127,11 @@ public class StringUtilitiesTest {
         Assert.assertEquals(actual, expected);
     }
 
-    /* String Utilities: Check Bad
-       Given a String, return true if the string contains "bad" and return false if the string does not contain "bad"
-
-       The method should return true if the string "bad" is found, regardless of case.
-    */
+    /**
+     * String Utilities: Check Bad
+     * Given a String, return true if the string contains "bad" and return false if the string does not contain "bad"
+     * The method should return true if the string "bad" is found, regardless of case.
+     */
     @Test
     public void testStringUtilitiesBadMorning1() {
         // Given

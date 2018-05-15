@@ -4,13 +4,12 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class RihannaRepetitionBuilderTest {
-    /* String Utilities: Rihanna Repetition Morning
-       Rihanna is writing a new pop song. She wants to make sure she repeats the last two letters the appropriate amount
-       of times to create the perfect pop cadence. Given a string, return the string with the last four letters repeated an
-       additional three times at the end of the word. This method should use StringBuilder. Ex: Umbrellaellaellaella
-
-       **Could increase difficulty by asking that first letter of the first name and last name be capitalized**
-    */
+    /**
+     * String Utilities: Rihanna Repetition Morning
+     * Rihanna is writing a new pop song. She wants to make sure she repeats the last two letters the appropriate amount
+     * of times to create the perfect pop cadence. Given a string, return the string with the last four letters repeated an
+     * additional three times at the end of the word. This method should use StringBuilder. Ex: Umbrellaellaellaella
+     */
 
     @Test
     public void testRihannaRepetitionBuilderMorning1() {
@@ -38,14 +37,13 @@ public class RihannaRepetitionBuilderTest {
         Assert.assertEquals(expected, actual);
     }
 
-    /* String Utilities: Rihanna Repetition Afternoon
-       Rihanna is writing a new pop song and what's to vary the ways she uses repetition. Given three parameters,
-       a string, the number of letters she wants to repeat at the end of the word and the number of times she wants to
-       repeat those letters, return the string with the correct letters repeated the correct number of times.
-       This method should use StringBuilder. Ex: Umbrellaellaellaella
-
-       **Could increase difficulty by asking that first letter of the first name and last name be capitalized**
-    */
+    /**
+     * String Utilities: Rihanna Repetition Afternoon
+     * Rihanna is writing a new pop song and what's to vary the ways she uses repetition. Given three parameters,
+     * a string, the number of letters she wants to repeat at the end of the word and the number of times she wants to
+     * repeat those letters, return the string with the correct letters repeated the correct number of times.
+     * This method should use StringBuilder. Ex: Umbrellaellaellaella
+     */
 
     @Test
     public void testRihannaRepetitionBuilderAfternoon1() {

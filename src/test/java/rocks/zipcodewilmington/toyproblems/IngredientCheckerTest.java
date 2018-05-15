@@ -4,12 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class IngredientCheckerTest {
-    /* Ingredient Checker Morning:
-       Tariq loves pizza, but hates pineapple. Given a an array of strings representing pizza ingredients, return true if
-       the ingredients contain pineapple. Return false if the ingredients do not.
-
-       Can add extra difficulty by testing ingredients ignoring case
-    */
     @Test
     public void checkForPineapplePositiveTest() {
         // Given

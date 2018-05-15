@@ -4,12 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class DisplayNameBuilderTest {
-      /* String Utilities: Full Name Morning
-       The public library is creating an email and needs each email subscriber's full name.
-       Given two parameters, String firstName and String lastName, return the subscriber's full name.
-
-       **Could increase difficulty by asking that first letter of the first name and last name be capitalized**
-    */
 
     @Test
     public void testDisplayNameMorning1() {

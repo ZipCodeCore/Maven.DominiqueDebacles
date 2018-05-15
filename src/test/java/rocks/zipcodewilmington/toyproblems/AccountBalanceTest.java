@@ -4,12 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class AccountBalanceTest {
-    /* Account Balance Morning:
-    Given two parameters, double currentBalance and double transaction, return the new bank balance after
-    applying the transaction. Transactions can either be credit or debit. If the new balance is less than 0,
-    apply a $30 overdraft fee.
-     */
-
     @Test
     public void testAccountBalanceMorning1() {
         // Given
