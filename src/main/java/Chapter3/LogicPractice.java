@@ -37,7 +37,7 @@ public class LogicPractice {
         return "";
     }
 
-    public static int roundSum(int x, int y, int z) {
+    public static int sumAndRoundDownToNearestTen(int x, int y, int z) {
         return 0;
     }
 
