@@ -12,12 +12,12 @@ public class LogicPractice {
     /**
      * when `x` and `y` are the same value, sum and double them.
      * when `x` and `y` are the not same value, sum them.
+     *
      * @param x first value to add
      * @param y second value to add
      * @return
      */
     public static int sumOrSumAndDouble(int x, int y) {
-
         return 0;
     }
 

@@ -16,9 +16,8 @@ public class AccountBalance {
 
     public static double getBalance(double currentBalance, double[] transactions) {
         double newBalance = currentBalance;
-
-        for (int i = 0; i < transactions.length; i++) {
-            newBalance += transactions[i];
+        for (double transaction : transactions) {
+            newBalance += transaction;
         }
 
         if (newBalance < 0) {
