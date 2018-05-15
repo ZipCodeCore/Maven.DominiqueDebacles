@@ -1,4 +1,4 @@
-package Chapter3;
+package rocks.zipcodewilmington.toyproblems;
 
 public class LogicPractice {
     public static boolean isSumTen(int x, int y) {

@@ -1,6 +1,6 @@
-package Chapter3.logicpracticetest;
+package rocks.zipcodewilmington.toyproblems.logicpracticetest;
 
-import Chapter3.LogicPractice;
+import rocks.zipcodewilmington.toyproblems.LogicPractice;
 import org.junit.Assert;
 
 /**

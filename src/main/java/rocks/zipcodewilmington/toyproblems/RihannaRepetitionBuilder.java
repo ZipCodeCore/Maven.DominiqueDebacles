@@ -1,4 +1,4 @@
-package Chapter3;
+package rocks.zipcodewilmington.toyproblems;
 
 public class RihannaRepetitionBuilder {
     public static String getVerse(String s) {

@@ -1,4 +1,4 @@
-package Chapter3;
+package rocks.zipcodewilmington.toyproblems;
 
 public class DisplayNameBuilder {
     public static String getFullName(String firstName, String lastName) {

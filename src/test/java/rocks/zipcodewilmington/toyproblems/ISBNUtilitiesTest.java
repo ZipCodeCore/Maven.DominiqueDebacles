@@ -1,4 +1,4 @@
-package Chapter3;
+package rocks.zipcodewilmington.toyproblems;
 
 import org.junit.Assert;
 import org.junit.Test;

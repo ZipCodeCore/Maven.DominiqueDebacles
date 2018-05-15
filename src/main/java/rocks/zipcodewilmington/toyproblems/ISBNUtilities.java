@@ -1,4 +1,4 @@
-package Chapter3;
+package rocks.zipcodewilmington.toyproblems;
 
 public class ISBNUtilities {
     public static String getNumbers(String s) {

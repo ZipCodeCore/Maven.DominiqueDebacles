@@ -1,4 +1,4 @@
-package Chapter3;
+package rocks.zipcodewilmington.toyproblems;
 
 public class StringUtilities {
     public static boolean checkForBad(String s) {
