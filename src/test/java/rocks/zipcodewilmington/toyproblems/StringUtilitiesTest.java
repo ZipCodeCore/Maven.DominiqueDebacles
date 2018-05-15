@@ -129,7 +129,8 @@ public class StringUtilitiesTest {
 
     /**
      * String Utilities: Check Bad
-     * Given a String, return true if the string contains "bad" and return false if the string does not contain "bad"
+     * Given a String, return true if the string contains "bad"
+     * and return false if the string does not contain "bad"
      * The method should return true if the string "bad" is found, regardless of case.
      */
     @Test

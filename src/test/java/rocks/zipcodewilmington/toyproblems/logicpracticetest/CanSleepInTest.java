@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * @author leon on 5/14/18.
  */
-public class CanSleepInLogicPracticeTest {
+public class CanSleepInTest {
     @Test
     public void canSleepInTrueTrue() {
         // given
