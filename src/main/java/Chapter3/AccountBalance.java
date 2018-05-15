@@ -3,13 +3,7 @@ package Chapter3;
 public class AccountBalance {
 
     public static double getBalance(double currentBalance, double transaction) {
-        double newBalance = currentBalance + transaction;
-
-        if (newBalance < 0) {
-            newBalance -= 30;
-        }
-
-        return newBalance;
+        return getBalance(currentBalance, new double[]{transaction});
     }
 
     public static double getBalance(double currentBalance, double[] transactions) {

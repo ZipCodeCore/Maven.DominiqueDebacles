@@ -6,43 +6,6 @@ import org.junit.Test;
 public class LogicPracticeTest {
 
     @Test
-    public void make10() {
-        Assert.assertTrue(LogicPractice.make10(9,1));
-        Assert.assertTrue(LogicPractice.make10(10,1));
-        Assert.assertTrue(LogicPractice.make10(9,10));
-        Assert.assertTrue(LogicPractice.make10(4,6));
-        Assert.assertFalse(LogicPractice.make10(8,1));
-        Assert.assertFalse(LogicPractice.make10(8,18));
-        Assert.assertFalse(LogicPractice.make10(4,11));
-    }
-
-    @Test
-    public void sleepIn() {
-        Assert.assertTrue(LogicPractice.sleepIn(true, true));
-        Assert.assertTrue(LogicPractice.sleepIn(false, true));
-        Assert.assertTrue(LogicPractice.sleepIn(true, false));
-        Assert.assertFalse(LogicPractice.sleepIn(false, false));
-    }
-
-    @Test
-    public void sumOrDouble() {
-        Assert.assertEquals(LogicPractice.sumOrDouble(2, 3), 5);
-        Assert.assertEquals(LogicPractice.sumOrDouble(2, 2), 8);
-        Assert.assertEquals(LogicPractice.sumOrDouble(1, 3), 4);
-        Assert.assertEquals(LogicPractice.sumOrDouble(6, 23), 29);
-        Assert.assertEquals(LogicPractice.sumOrDouble(12, 12), 48);
-    }
-
-    @Test
-    public void differenceDigits() {
-        Assert.assertEquals(LogicPractice.differenceDigits(10), 1);
-        Assert.assertEquals(LogicPractice.differenceDigits(23), 1);
-        Assert.assertEquals(LogicPractice.differenceDigits(52), 3);
-        Assert.assertEquals(LogicPractice.differenceDigits(73), 4);
-        Assert.assertEquals(LogicPractice.differenceDigits(99), 0);
-    }
-
-    @Test
     public void notString() {
         Assert.assertEquals(LogicPractice.notString("cat"), "not cat");
         Assert.assertEquals(LogicPractice.notString("me"), "not me");
@@ -52,10 +15,10 @@ public class LogicPracticeTest {
 
     @Test
     public void repayment() {
-        Assert.assertTrue(LogicPractice.repayment(true, true));
-        Assert.assertFalse(LogicPractice.repayment(false, true));
-        Assert.assertFalse(LogicPractice.repayment(true, false));
-        Assert.assertFalse(LogicPractice.repayment(false, false));
+        Assert.assertTrue(LogicPractice.isRepaymentRequired(true, true));
+        Assert.assertFalse(LogicPractice.isRepaymentRequired(false, true));
+        Assert.assertFalse(LogicPractice.isRepaymentRequired(true, false));
+        Assert.assertFalse(LogicPractice.isRepaymentRequired(false, false));
     }
 
     @Test
@@ -75,26 +38,24 @@ public class LogicPracticeTest {
 
     @Test
     public void blackJack() {
-        Assert.assertEquals(LogicPractice.blackJack(10, 11), 11);
-        Assert.assertEquals(LogicPractice.blackJack(20, 11), 20);
-        Assert.assertEquals(LogicPractice.blackJack(21, 20), 21);
-        Assert.assertEquals(LogicPractice.blackJack(22, 10), 10);
-        Assert.assertEquals(LogicPractice.blackJack(19, 22), 19);
+        Assert.assertEquals(LogicPractice.getBlackJackValue(10, 11), 11);
+        Assert.assertEquals(LogicPractice.getBlackJackValue(20, 11), 20);
+        Assert.assertEquals(LogicPractice.getBlackJackValue(21, 20), 21);
+        Assert.assertEquals(LogicPractice.getBlackJackValue(22, 10), 10);
+        Assert.assertEquals(LogicPractice.getBlackJackValue(19, 22), 19);
     }
 
     @Test
     public void evenlySpaced() {
-        Assert.assertTrue(LogicPractice.evenlySpaced(1,2,3));
-        Assert.assertTrue(LogicPractice.evenlySpaced(2,4,6));
-        Assert.assertTrue(LogicPractice.evenlySpaced(6,4,2));
-        Assert.assertTrue(LogicPractice.evenlySpaced(1,7,4));
+        Assert.assertTrue(LogicPractice.isEvenlySpaced(1,2,3));
+        Assert.assertTrue(LogicPractice.isEvenlySpaced(2,4,6));
+        Assert.assertTrue(LogicPractice.isEvenlySpaced(6,4,2));
+        Assert.assertTrue(LogicPractice.isEvenlySpaced(1,7,4));
 
-        Assert.assertFalse(LogicPractice.evenlySpaced(2,7,4));
-        Assert.assertFalse(LogicPractice.evenlySpaced(1,2,9));
-        Assert.assertFalse(LogicPractice.evenlySpaced(3,2,13));
-        Assert.assertFalse(LogicPractice.evenlySpaced(19,9,3));
-
-
+        Assert.assertFalse(LogicPractice.isEvenlySpaced(2,7,4));
+        Assert.assertFalse(LogicPractice.isEvenlySpaced(1,2,9));
+        Assert.assertFalse(LogicPractice.isEvenlySpaced(3,2,13));
+        Assert.assertFalse(LogicPractice.isEvenlySpaced(19,9,3));
     }
 
 }

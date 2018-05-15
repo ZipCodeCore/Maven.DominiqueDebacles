@@ -6,7 +6,7 @@ public class ISBNUtilities {
     }
 
     public static String[] getArray(String s) {
-        String newString = s.replace("ISBN", "");
+        String newString = getNumbers(s);
         return newString.split("-");
     }
 }
