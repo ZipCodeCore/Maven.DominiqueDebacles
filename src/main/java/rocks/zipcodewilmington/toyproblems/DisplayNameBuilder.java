@@ -14,10 +14,10 @@ public class DisplayNameBuilder {
     }
 
     public static String getDisplayName(String firstName, String lastName) {
-        if (firstName == "" || lastName == "") {
+        if ("".equals(firstName) || "".equals(lastName)) {
             return "Supporter";
         } else {
-            return firstName + " " + lastName;
+            return getFullName(firstName, lastName);
         }
     }
 }

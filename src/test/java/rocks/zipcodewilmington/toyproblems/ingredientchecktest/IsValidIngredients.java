@@ -1,48 +1,13 @@
-package rocks.zipcodewilmington.toyproblems;
+package rocks.zipcodewilmington.toyproblems.ingredientchecktest;
 
 import org.junit.Assert;
 import org.junit.Test;
+import rocks.zipcodewilmington.toyproblems.IngredientChecker;
 
-public class IngredientCheckerTest {
-    @Test
-    public void checkForPineapplePositiveTest() {
-        // Given
-        String[] ingredients = {"dough", "cheese", "pepperoni", "pineapple", "ham", "broccoli"};
-        boolean expected = true;
-
-        // When
-        boolean actual = IngredientChecker.containsPineapple(ingredients);
-
-        // Then
-        Assert.assertEquals(expected, actual);
-    }
-
-
-    @Test
-    public void checkForPineappleNegativeTest1() {
-        // Given
-        String[] ingredients = {"dough", "cheese", "pepperoni", "ham", "broccoli"};
-        boolean expected = false;
-
-        // When
-        boolean actual = IngredientChecker.containsPineapple(ingredients);
-
-        // Then
-        Assert.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void checkForPineappleNegativeTest2() {
-        // Given
-        String[] ingredients = {};
-        boolean expected = false;
-
-        // When
-        boolean actual = IngredientChecker.containsPineapple(ingredients);
-
-        // Then
-        Assert.assertEquals(expected, actual);
-    }
+/**
+ * @author leon on 5/15/18.
+ */
+public class IsValidIngredients {
 
     @Test
     public void isValidIngredientsPositive1() {
@@ -95,7 +60,6 @@ public class IngredientCheckerTest {
         // Then
         Assert.assertEquals(expected, actual);
     }
-
 
 
     @Test
