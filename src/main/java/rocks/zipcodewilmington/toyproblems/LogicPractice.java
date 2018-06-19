@@ -1,11 +1,11 @@
 package rocks.zipcodewilmington.toyproblems;
 
 public class LogicPractice {
-    public static boolean isSumTen(int x, int y) {
+    public static Boolean isSumTen(int x, int y) {
         return x + y == 10;
     }
 
-    public static boolean canSleepIn(boolean isWeekend, boolean onVaction) {
+    public static Boolean canSleepIn(Boolean isWeekend, Boolean onVaction) {
         return isWeekend || onVaction;
     }
 
@@ -17,11 +17,11 @@ public class LogicPractice {
      * @param y second value to add
      * @return
      */
-    public static int sumOrSumAndDouble(int x, int y) {
+    public static Integer sumOrSumAndDouble(int x, int y) {
         return 0;
     }
 
-    public static int getDigitDifference(int x) {
+    public static Integer getDigitDifference(int x) {
         return 0;
     }
 
@@ -29,7 +29,7 @@ public class LogicPractice {
         return "";
     }
 
-    public static boolean isRepaymentRequired(boolean paymentDue, boolean moneyIsOwed) {
+    public static Boolean isRepaymentRequired(Boolean paymentDue, Boolean moneyIsOwed) {
         return false;
     }
 
@@ -37,15 +37,15 @@ public class LogicPractice {
         return "";
     }
 
-    public static int sumAndRoundDownToNearestTen(int x, int y, int z) {
+    public static Integer sumAndRoundDownToNearestTen(int x, int y, int z) {
         return 0;
     }
 
-    public static int getBlackJackValue(int x, int y) {
+    public static Integer getBlackJackValue(int x, int y) {
         return 0;
     }
 
-    public static boolean isEvenlySpaced(int x, int y, int z) {
+    public static Boolean isEvenlySpaced(int x, int y, int z) {
         return false;
     }
 }

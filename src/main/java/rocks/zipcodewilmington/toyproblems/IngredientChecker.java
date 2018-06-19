@@ -14,21 +14,21 @@ package rocks.zipcodewilmington.toyproblems;
 
 public class IngredientChecker {
 
-    public static boolean isValidIngredients(String[] ingredients) {
+    public static Boolean isValidIngredients(String[] ingredients) {
         String[] soughtIngredients = {"dough", "cheese", "pepperoni", "tomato sauce"};
         return containsIngredients(ingredients, soughtIngredients);
     }
 
-    public static boolean containsPineapple(String[] ingredients) {
+    public static Boolean containsPineapple(String[] ingredients) {
         return containsIngredient(ingredients, "pineapple");
     }
 
 
-    public static boolean containsCheese(String[] ingredients) {
+    public static Boolean containsCheese(String[] ingredients) {
         return containsIngredient(ingredients, "cheese");
     }
 
-    public static boolean containsIngredients(String[] ingredients, String[] soughtIngredients) {
+    public static Boolean containsIngredients(String[] ingredients, String[] soughtIngredients) {
         for(String soughtIngredient : soughtIngredients) {
             if(!containsIngredient(ingredients, soughtIngredient)) {
                 return false;
@@ -37,7 +37,7 @@ public class IngredientChecker {
         return true;
     }
 
-    public static boolean containsIngredient(String[] ingredients, String soughtIngredient) {
+    public static Boolean containsIngredient(String[] ingredients, String soughtIngredient) {
         for (String ingredient : ingredients) {
             if (ingredient.equals(soughtIngredient)) {
                 return true;

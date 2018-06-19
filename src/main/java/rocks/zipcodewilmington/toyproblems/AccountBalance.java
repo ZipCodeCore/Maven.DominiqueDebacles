@@ -10,11 +10,11 @@ package rocks.zipcodewilmington.toyproblems;
 
 public class AccountBalance {
 
-    public static double getBalance(double currentBalance, double transaction) {
+    public static Double getBalance(double currentBalance, double transaction) {
         return getBalance(currentBalance, new double[]{transaction});
     }
 
-    public static double getBalance(double currentBalance, double[] transactions) {
+    public static Double getBalance(double currentBalance, double[] transactions) {
         double newBalance = currentBalance;
         for (double transaction : transactions) {
             newBalance += transaction;
