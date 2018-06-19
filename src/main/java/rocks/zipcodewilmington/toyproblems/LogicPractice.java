@@ -2,11 +2,11 @@ package rocks.zipcodewilmington.toyproblems;
 
 public class LogicPractice {
     public static Boolean isSumTen(int x, int y) {
-        return x + y == 10;
+        return null;
     }
 
     public static Boolean canSleepIn(Boolean isWeekend, Boolean onVaction) {
-        return isWeekend || onVaction;
+        return null;
     }
 
     /**
@@ -18,34 +18,34 @@ public class LogicPractice {
      * @return
      */
     public static Integer sumOrSumAndDouble(int x, int y) {
-        return 0;
+        return null;
     }
 
     public static Integer getDigitDifference(int x) {
-        return 0;
+        return null;
     }
 
     public static String notString(String s) {
-        return "";
+        return null;
     }
 
     public static Boolean isRepaymentRequired(Boolean paymentDue, Boolean moneyIsOwed) {
-        return false;
+        return null;
     }
 
     public static String removeCharacter(String s, int index) {
-        return "";
+        return null;
     }
 
     public static Integer sumAndRoundDownToNearestTen(int x, int y, int z) {
-        return 0;
+        return null;
     }
 
     public static Integer getBlackJackValue(int x, int y) {
-        return 0;
+        return null;
     }
 
     public static Boolean isEvenlySpaced(int x, int y, int z) {
-        return false;
+        return null;
     }
 }

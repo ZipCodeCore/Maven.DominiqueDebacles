@@ -11,7 +11,7 @@ public class ISBNUtilities {
      * @return a String containing only the five number sections
      */
     public static String getNumbers(String stringToParse) {
-        return stringToParse.replace("ISBN", "");
+        return null;
     }
 
     /**
@@ -24,7 +24,6 @@ public class ISBNUtilities {
      * @return an array of string representing each of the 5 numerical elements
      */
     public static String[] getArray(String stringToParse) {
-        String newString = getNumbers(stringToParse);
-        return newString.split("-");
+        return null;
     }
 }

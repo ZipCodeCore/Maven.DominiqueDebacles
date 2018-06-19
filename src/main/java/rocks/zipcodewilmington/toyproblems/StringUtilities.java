@@ -1,23 +1,23 @@
 package rocks.zipcodewilmington.toyproblems;
 
 public class StringUtilities {
-    public static boolean checkForBad(String s) {
-        s = s.toLowerCase();
-
-        return s.contains("bad");
+    public static Boolean checkForBad(String s) {
+        return null;
     }
 
     public static String remove(String s, String x) {
-        return s.replace(x, "");
+        return null;
     }
 
     public static String getGreeting(String s) {
-        return "Hello " + s;
+        return null;
     }
 
     public static String[] toArray(String s) {
-        return s.split(" ");
+        return null;
     }
 
-    public static String toString(String[] array) { return String.join(" ", array); }
+    public static String toString(String[] array) {
+        return null;
+    }
 }

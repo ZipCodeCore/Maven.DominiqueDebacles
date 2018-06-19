@@ -10,14 +10,10 @@ package rocks.zipcodewilmington.toyproblems;
  */
 public class DisplayNameBuilder {
     public static String getFullName(String firstName, String lastName) {
-        return firstName + " " + lastName;
+        return null;
     }
 
     public static String getDisplayName(String firstName, String lastName) {
-        if ("".equals(firstName) || "".equals(lastName)) {
-            return "Supporter";
-        } else {
-            return getFullName(firstName, lastName);
-        }
+        return null;
     }
 }

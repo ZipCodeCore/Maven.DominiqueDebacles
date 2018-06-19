@@ -58,7 +58,7 @@ public class ContainsIngredientsTest {
         boolean outcome = IngredientChecker.containsIngredients(ingredients, soughtIngredients);
 
         // Then
-        Assert.assertTrue(outcome);
+        Assert.assertFalse(outcome);
     }
 
 
@@ -72,7 +72,7 @@ public class ContainsIngredientsTest {
         boolean outcome = IngredientChecker.containsIngredients(ingredients, soughtIngredients);
 
         // Then
-        Assert.assertTrue(outcome);
+        Assert.assertFalse(outcome);
     }
 
     @Test
@@ -85,7 +85,7 @@ public class ContainsIngredientsTest {
         boolean outcome = IngredientChecker.containsIngredients(ingredients, soughtIngredients);
 
         // Then
-        Assert.assertTrue(outcome);
+        Assert.assertFalse(outcome);
     }
 
     @Test
@@ -98,7 +98,7 @@ public class ContainsIngredientsTest {
         boolean outcome = IngredientChecker.containsIngredients(ingredients, soughtIngredients);
 
         // Then
-        Assert.assertTrue(outcome);
+        Assert.assertFalse(outcome);
     }
 
 }
